@@ -1,0 +1,17 @@
+[package]
+name = "defi-automatatedtaxreportingtoolsfordefi"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0x1bc8fd17991bc939c933f80884587616d214e1e2668c6744a4a6238937d9ccaa"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
